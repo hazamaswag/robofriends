@@ -36,12 +36,12 @@ class App extends Component {
 			<div className='tc'>
 				<h1 className='f1'>RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange} />
-				<Scroll>
+				{/* <Scroll> */}
 					<ErrorBoundry>
 						<CardList robots={filteredRobots}/>
 					</ErrorBoundry>
 					
-				</Scroll>
+				{/* </Scroll> */}
 			</div>
 		);
 	}
